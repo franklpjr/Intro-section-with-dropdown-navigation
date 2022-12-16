@@ -77,6 +77,7 @@ a{
     }
 
     .nav-menu{
+        z-index: 1;
         position:fixed;
         left: -100%;
         top:70px;
@@ -90,6 +91,7 @@ a{
 
     .nav-item {
         margin: 16px 0;
+        z-index: 1;
     }
 
     .nav-menu.active {
@@ -118,6 +120,10 @@ a{
   
       .navbar-brand {
           margin-left: 1%;
+      }
+
+      .dropdown {
+        z-index: 2;
       }
 }
 
